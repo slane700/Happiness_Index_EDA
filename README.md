@@ -64,10 +64,12 @@ Stats models were also run on the other variables. All of them had a positive r-
 ![Table-Economy](Happiness/Images/Tables/happiness_v_economy.png)
 ![Table-LifeExpectancy](Happiness/Images/Tables/happiness_v_life_expenctancy.png)
 <br>
-Correlations with Weather There are not very many strong correlations between any of the weather variables and the World Happiness Report variables. There is a slight positive correlation between Latitude and Happiness Score and a slight negative correlation between Temperature and Happiness Score.
+### Correlations with Weather 
+
+There are not very many strong correlations between any of the weather variables and the World Happiness Report variables. There is a slight positive correlation between Latitude and Happiness Score and a slight negative correlation between Temperature and Happiness Score.
 After reviewing each R-value it became apparent none of the weather variables had a strong correlation with Happiness Score. There is a weak relationship between Happiness Score and Temperature. The calculated r-values for the simple linregress is 0.44 which shows that there is a weak positive correlation between Happiness Score and Latitude. 
 ![Correlation-Weather](Happiness/Images/Heatmaps/Correlation_Heat_Map_Weather.png)
-![Regression-Temperature](Happiness/Images/Regressions/Regression_Happiness_Score_vs _Temperature.png)
+![Regression-Temperature](Happiness/Images/Regressions/Regression_Happiness_Score_vs_Latitude.png)
 
 Similarly, the relationship between Happiness Score vs Latitude shows a slight negative correlation. The calculated r-values for the simple linregress is -0.35 which shows that there is a weak negative correlation between Happiness Score and Temperature.
 
